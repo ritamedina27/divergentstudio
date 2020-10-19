@@ -4,6 +4,10 @@
   margin-top: 29px;
 }
 
+.container {
+  background-color: cyan;
+}
+
 button {
   width: 202px;
   height: 53px;

@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Banner = (props) => {
   return (
-    <div>
+    <div className="container">
       <div className="header">
         <button>Let's Talk 👋</button>
       </div>
