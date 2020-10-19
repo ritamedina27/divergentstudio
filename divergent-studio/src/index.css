@@ -132,3 +132,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "Ariata Display";
+  src: url("assets/Fonts/AriataDisplay-Regular.woff2") format("woff2");
+}

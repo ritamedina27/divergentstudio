@@ -1,33 +1,45 @@
 .header {
   position: fixed;
-  margin-right: 65px;
-  margin-top: 29px;
+  right: 100px;
+  text-align: right;
+  padding-top: 29px;
 }
 
 .container {
-  background-color: blue;
-}
-
-button {
-  width: 202px;
-  height: 53px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.banner-container {
   width: 100vw;
   height: 100vh;
+  background-image: url(../../assets/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: right;
   align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 53px;
+  width: 220px;
+  padding: 0 25px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Ariata Display";
   font-weight: 400;
   font-size: 36px;
   line-height: 50px;
-  width: 60%;
+  width: 50%;
   text-align: justify;
   padding-right: 100px;
 }
