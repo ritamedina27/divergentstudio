@@ -3,7 +3,52 @@
   src: url(../../assets/Fonts/AriataDisplay-Regular.woff2) format("woff2");
 }
 
+@font-face {
+  font-family: "Graphik";
+  src: url(../../assets/Fonts/GraphikRegular.woff2) format("woff2");
+}
+
+.container-OP {
+  width: 100vw;
+  background-color: rgba(231, 224, 196, 0.34);
+}
+
+.title-OP {
+  padding: 140px;
+  margin-top: 0px;
+}
+
 h1 {
   font-family: "Ariata Display";
+  font-weight: 400;
   font-size: 36px;
+  line-height: 40%;
+  text-align: justify;
+}
+
+.text-OP {
+  padding-left: 80px;
+}
+
+h2 {
+  font-family: "Graphik";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: left;
+}
+
+.stepsProcess {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.stepOne {
+  padding-right: 50px;
+}
+
+.stepTwo {
+  padding-right: 50px;
 }
