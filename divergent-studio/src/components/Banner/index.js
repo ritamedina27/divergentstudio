@@ -3,7 +3,6 @@ import "./styles.css";
 import whatsappIcon from "../../assets/whatsapp.png";
 import designCodingIcon from "../../assets/codingdesignIcon.png";
 import locationIcon from "../../assets/location.png";
-/*import exploreIcon from "../../assets/exploreIcon.png";*/
 
 const Banner = (props) => {
   return (
@@ -13,9 +12,9 @@ const Banner = (props) => {
       </div>
       <button className="contact">
         <h3>Let's Talk</h3>
-        <img src={whatsappIcon} alt="whatsappIcon" width={27} height="27" />
+        <img src={whatsappIcon} alt="whatsappIcon" width={27} />
       </button>
-      <div className="container">
+      <div className="background-banner">
         <div className="text">
           <h1>
             <strong>Go divergent</strong> - for the ones looking to combine
