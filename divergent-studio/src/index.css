@@ -137,3 +137,8 @@ code {
   font-family: "Ariata Display";
   src: url("assets/Fonts/AriataDisplay-Regular.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: "Graphik";
+  src: url("assets/Fonts/GraphikRegular.woff2") format("woff2");
+}
