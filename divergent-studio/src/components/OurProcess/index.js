@@ -1,10 +1,14 @@
 import React from "react";
 import "./styles.css";
+import randomRedLine from "../../assets/redline.png";
 
 const OurProcess = (props) => {
   return (
-    <div className="container-OP">
-      <div className="title-OP">
+    <div className="background-OP">
+      <div className="line">
+        <div class="vl"></div>
+      </div>
+      <div className="container-OP">
         <h1>
           <strong>
             Our <p>Process</p>
@@ -24,7 +28,7 @@ const OurProcess = (props) => {
             <br />
           </h2>
           <div className="stepsProcess">
-            <div className="stepOne">
+            <div className="step">
               <h1>1</h1>
               <h2>
                 <strong>Research and Strategy</strong> <br />
@@ -35,7 +39,7 @@ const OurProcess = (props) => {
                 that add value to the project.{" "}
               </h2>
             </div>
-            <div className="stepTwo">
+            <div className="step">
               <h1>2</h1>
               <h2>
                 <strong>Visual</strong> <br />
@@ -46,7 +50,7 @@ const OurProcess = (props) => {
                 your users.{" "}
               </h2>
             </div>
-            <div className="stepTree">
+            <div className="step">
               <h1>3</h1>
               <h2>
                 <strong>Coding</strong> <br />
@@ -58,6 +62,9 @@ const OurProcess = (props) => {
               </h2>
             </div>
           </div>
+        </div>
+        <div className="randomRedLine">
+          <img src={randomRedLine} alt="randomRedLine" width={170} />
         </div>
       </div>
     </div>
