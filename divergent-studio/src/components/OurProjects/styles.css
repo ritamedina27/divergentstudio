@@ -4,13 +4,27 @@
   margin-top: 0px;
 }
 
-.container-OPR {
-  display: flex;
-  flex-wrap: wrap;
+.second {
+  padding-left: 80px;
+  padding-bottom: 100px;
+  max-width: 900px;
 }
+
+.subtitle {
+  padding-bottom: 30px;
+}
+
 .project {
   border: 2px solid black;
-  width: 300px;
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
 }
 
 h1 {
@@ -21,7 +35,14 @@ h1 {
   text-align: justify;
 }
 
-text {
+.textoPerfil {
+  display: inline-block;
+  align-items: center;
+  padding-left: 30px;
+  line-height: 10px;
+}
+.textProject {
+  text-align: justify;
 }
 
 h2 {
@@ -30,5 +51,4 @@ h2 {
   font-size: 18px;
   line-height: 160%;
   text-align: left;
-  padding-left: 80px;
 }
