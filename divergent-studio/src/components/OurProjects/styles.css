@@ -1,9 +1,34 @@
 .ourProjects {
+  width: 100vw;
+  padding: 125px 100px 100px 100px;
+  margin-top: 0px;
+}
+
+.container-OPR {
   display: flex;
   flex-wrap: wrap;
 }
-
 .project {
   border: 2px solid black;
   width: 300px;
+}
+
+h1 {
+  font-family: "Ariata Display";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40%;
+  text-align: justify;
+}
+
+text {
+}
+
+h2 {
+  font-family: "Graphik";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: left;
+  padding-left: 80px;
 }
