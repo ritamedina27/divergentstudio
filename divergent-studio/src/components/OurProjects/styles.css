@@ -1,0 +1,54 @@
+.ourProjects {
+  width: 100vw;
+  padding: 125px 100px 100px 100px;
+  margin-top: 0px;
+}
+
+.second {
+  padding-left: 80px;
+  padding-bottom: 100px;
+  max-width: 900px;
+}
+
+.subtitle {
+  padding-bottom: 30px;
+}
+
+.project {
+  border: 2px solid black;
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+}
+
+h1 {
+  font-family: "Ariata Display";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40%;
+  text-align: justify;
+}
+
+.textoPerfil {
+  display: inline-block;
+  align-items: center;
+  padding-left: 30px;
+  line-height: 10px;
+}
+.textProject {
+  text-align: justify;
+}
+
+h2 {
+  font-family: "Graphik";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: left;
+}
