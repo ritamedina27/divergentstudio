@@ -3,6 +3,10 @@
    License: none (public domain)
 */
 
+* {
+  box-sizing: content-box;
+}
+
 html,
 body,
 div,
@@ -112,7 +116,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -123,11 +127,11 @@ table {
 /* começa aqui o meu código*/
 
 @font-face {
-  font-family: "Ariata Display";
-  src: url("assets/Fonts/AriataDisplay-Regular.woff2") format("woff2");
+  font-family: 'Ariata Display';
+  src: url('assets/Fonts/AriataDisplay-Regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "Graphik";
-  src: url("assets/Fonts/GraphikRegular.woff2") format("woff2");
+  font-family: 'Graphik';
+  src: url('assets/Fonts/GraphikRegular.woff2') format('woff2');
 }

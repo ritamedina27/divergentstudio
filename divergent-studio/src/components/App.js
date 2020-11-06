@@ -1,10 +1,12 @@
-import React from "react";
-import "./App.css";
-import OurProcess from "./OurProcess";
+import React from 'react';
+import './App.scss';
+import OurProcess from './OurProcess';
+import Banner from './Banner';
 
 function App() {
   return (
     <div className="App">
+      <Banner />
       <OurProcess />
     </div>
   );

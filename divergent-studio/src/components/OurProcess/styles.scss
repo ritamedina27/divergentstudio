@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Ariata Display";
-  src: url(../../assets/Fonts/AriataDisplay-Regular.woff2) format("woff2");
+  font-family: 'Ariata Display';
+  src: url(../../assets/Fonts/AriataDisplay-Regular.woff2) format('woff2');
 }
 
 @font-face {
-  font-family: "Graphik";
-  src: url(../../assets/Fonts/GraphikRegular.woff2) format("woff2");
+  font-family: 'Graphik';
+  src: url(../../assets/Fonts/GraphikRegular.woff2) format('woff2');
 }
 
 .background-OP {
@@ -16,7 +16,7 @@
 }
 
 .line {
-  margin-left: 70px;
+  margin-left: 100px;
 }
 .vl {
   border-right: 1px solid black;
@@ -30,10 +30,10 @@
 }
 
 h1 {
-  font-family: "Ariata Display";
+  font-family: 'Ariata Display';
   font-weight: 400;
   font-size: 36px;
-  line-height: 40%;
+
   text-align: justify;
 }
 
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Graphik";
+  font-family: 'Graphik';
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
@@ -68,4 +68,20 @@ h2 {
   align-items: center;
   justify-content: end;
   margin-top: 70px;
+}
+
+@media only screen and (max-width: '768px') {
+  .container-OP {
+    width: 80%;
+    padding: 0px 30px 100px 30px;
+    margin-top: 0px;
+  }
+  .text-OP {
+    padding-left: 0px;
+  }
+  .step {
+    padding-right: 0px;
+    min-width: 100%;
+    max-width: 100%;
+  }
 }

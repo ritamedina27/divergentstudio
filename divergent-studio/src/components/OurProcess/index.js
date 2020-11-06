@@ -1,17 +1,23 @@
-import React from "react";
-import "./styles.css";
-import randomRedLine from "../../assets/redline.png";
+import React from 'react';
+import './styles.scss';
+import randomRedLine from 'assets/redline.png';
+import { useMediaQuery } from 'react-responsive';
+import { SCREEN_SIZES } from 'utils/screenSize';
 
 const OurProcess = (props) => {
+  const isMobile = useMediaQuery({ maxWidth: SCREEN_SIZES.until.md });
   return (
     <div className="background-OP">
-      <div className="line">
-        <div class="vl"></div>
-      </div>
+      {!isMobile && (
+        <div className="line">
+          <div class="vl"></div>
+        </div>
+      )}
       <div className="container-OP">
         <h1>
           <strong>
-            Our <p>Process</p>
+            Our <br />
+            Process
           </strong>
         </h1>
         <div className="text-OP">
@@ -36,7 +42,7 @@ const OurProcess = (props) => {
                 This phase it’s all about knowing your project and the users of
                 your site. We use different tools, like desk research,
                 questionnaries, interviews. After we start designing a strategy
-                that add value to the project.{" "}
+                that add value to the project.{' '}
               </h2>
             </div>
             <div className="step">
@@ -47,7 +53,7 @@ const OurProcess = (props) => {
                 We do simple and honest design, which means that is driven by a
                 carefull designed strategy. Like this we make sure that is
                 coherent with the nature of your project and with the needs of
-                your users.{" "}
+                your users.{' '}
               </h2>
             </div>
             <div className="step">
