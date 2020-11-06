@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Ariata Display';
+  src: url(../../assets/Fonts/AriataDisplay-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url(../../assets/Fonts/GraphikRegular.woff2) format('woff2');
+}
+
+.background-OP {
+  background-color: rgba(231, 224, 196, 0.34);
+  display: flex;
+  padding-top: 100px;
+  height: 100%;
+}
+
+.line {
+  margin-left: 100px;
+}
+.vl {
+  border-right: 1px solid black;
+  height: 100%;
+}
+
+.container-OP {
+  width: 100vw;
+  padding: 0px 100px 100px 30px;
+  margin-top: 0px;
+}
+
+h1 {
+  font-family: 'Ariata Display';
+  font-weight: 400;
+  font-size: 36px;
+
+  text-align: justify;
+}
+
+.text-OP {
+  padding-left: 80px;
+}
+
+h2 {
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: left;
+}
+
+.stepsProcess {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.step {
+  padding-right: 50px;
+  min-width: 265px;
+  max-width: 300px;
+}
+
+.randomRedLine {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: '768px') {
+  .container-OP {
+    width: 80%;
+    padding: 0px 30px 100px 30px;
+    margin-top: 0px;
+  }
+  .text-OP {
+    padding-left: 0px;
+  }
+  .step {
+    padding-right: 0px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
