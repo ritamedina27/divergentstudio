@@ -6,6 +6,7 @@
 html,
 body,
 div,
+span,
 applet,
 object,
 iframe,
@@ -119,16 +120,14 @@ table {
   border-spacing: 0;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* começa aqui o meu código*/
+
+@font-face {
+  font-family: "Ariata Display";
+  src: url("assets/Fonts/AriataDisplay-Regular.woff2") format("woff2");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@font-face {
+  font-family: "Graphik";
+  src: url("assets/Fonts/GraphikRegular.woff2") format("woff2");
 }
