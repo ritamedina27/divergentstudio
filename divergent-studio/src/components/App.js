@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Banner from "./Banner";
+import OurProcess from "./OurProcess";
 
 function App() {
   return (
     <div className="App">
-      <Banner />
+      <OurProcess />
     </div>
   );
 }
